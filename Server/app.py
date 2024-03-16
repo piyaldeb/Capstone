@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # Load your pre-trained sonar dataset (replace with your data loading logic)
 
 # Replace 'sonar_data.csv' with the actual path to your CSV file
-with open('Copy of sonar data.csv', newline='') as csvfile:
+with open('Server/Copy of sonar data.csv', newline='') as csvfile:
     reader = csv.reader(csvfile)
     sonar_data = list(reader)  # Create a list of lists from the CSV data
 # Feature selection (drop last column)
