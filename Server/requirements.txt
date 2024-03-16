@@ -64,7 +64,7 @@ nltk==3.5
 notebook==6.0.3
 numpy==1.17.2
 oauthlib==3.1.0
-opencv-python==4.2.0.34
+opencv-python== 4.4.0.40
 opt-einsum==3.2.0
 packaging==20.3
 pandas==1.0.3
