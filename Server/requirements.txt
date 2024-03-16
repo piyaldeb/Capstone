@@ -19,7 +19,7 @@ pytest-cov==2.4.0
 attrs==23.2.0
 bleach==6.1.0
 blinker==1.7.0
-click=7.1.2
+click=7.0.0
 colorama==0.4.6
 defusedxml==0.7.1
 entrypoints==0.4
