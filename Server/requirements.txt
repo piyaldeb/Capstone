@@ -54,3 +54,9 @@ traitlets==5.14.2
 tzdata==2024.1
 webencodings==0.5.1
 Werkzeug==3.0.1
+plotly
+scipy
+pandas
+Flask
+flask-cors
+pyforest
