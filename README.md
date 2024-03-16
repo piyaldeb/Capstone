@@ -51,6 +51,9 @@ This is the Mine Reading which is very complex and having unorganised spikes
 
 ![download (1)](https://github.com/piyaldeb/Capstone/assets/84727208/3a52a2a8-a1ba-4e04-9eca-4f2dcf23aac6)
 
+Our Predictive Model will predict is it rock or mine
+![image](https://github.com/piyaldeb/Capstone/assets/84727208/362b0617-dd36-49bc-b217-637d680c2f19)
+
 
 
  <h1>
