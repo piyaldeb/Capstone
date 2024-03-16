@@ -39,14 +39,17 @@ Differentiating between a rock and a mine on a sonar graph can be tricky, but so
 
 
 This is dataset looks like
+
 ![image](https://github.com/piyaldeb/Capstone/assets/84727208/d475378b-f198-4a82-a0d0-426a0a742902)
 
 This is the Rocks Reading which is very simple in nature
-![image](https://github.com/piyaldeb/Capstone/assets/84727208/7289b338-9a9a-4685-a43a-dccfebf877cb)
+
+![download](https://github.com/piyaldeb/Capstone/assets/84727208/7d9163f3-e643-4f07-b39e-5db7531af14d)
 
 
 This is the Mine Reading which is very complex and having unorganised spikes
-![image](https://github.com/piyaldeb/Capstone/assets/84727208/0f66128d-3c9c-44af-9fe1-a378d2bc7a19)
+
+![download (1)](https://github.com/piyaldeb/Capstone/assets/84727208/3a52a2a8-a1ba-4e04-9eca-4f2dcf23aac6)
 
 
 
