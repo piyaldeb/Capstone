@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mine vs. Rock Classification</title>
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;  /* Fixed page height for viewport */
+            margin: 0;  /* Remove default body margin */
+        }
+        .sidebar {
+            flex: 0 0 200px;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .center-box {
+            display: flex;
+            justify-content: center;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="/about">About Us</a>
+    </div>
+    <div class content">
+        <h1>Sonar Data Classification</h1>
+        <form action="/predict" method="post">
+            Enter comma-separated sonar data:
+            <br>
+            <div class="center-box">
+                <input type="text" name="data" required>
+            </div>
+            <br>
+            <br>
+            <div class="center-box">
+                <button type="submit">Predict</button>
+            </div>
+            <p style="font-size: smaller; margin-top: 13px; text-align: center;">Sonar data is data collected from sonar systems, which are used to detect and locate underwater objects using sound waves. This data typically consists of acoustic signals that are transmitted into the water and the resulting echoes reflected off objects in the water. Sonar data can be represented in various formats, including time-domain signals, frequency-domain signals, or processed feature vectors derived from the raw acoustic signals.
+            <br>
+            **Example for input values:** 0.0307,0.0523,0.0653,0.0521,0.0611,0.0577,0.0665,
+                0.0664,0.1460,0.2792,0.3877,0.4992,0.4981,0.4972,0.5607,0.7339,0.8230,0.9173,
+                0.9975,0.9911,0.8240,0.6498,0.5980,0.4862,0.3150,0.1543,0.0989,0.0284,0.1008,
+                0.2636,0.2694,0.2930,0.2925,0.3998,0.3660,0.3172,0.4609,0.4374,0.1820,0.3376,
+                0.6202,0.4448,0.1863,0.1420,0.0589,0.0576,0.0672,0.0269,0.0245,0.0190,0.0063,
+                0.0321,0.0189,0.0137,0.0277,0.0152,0.0052,0.0121,0.0124,0.0055
+            (Each value in the row represents a feature of the sonar signal.
+The values range between 0 and 1, indicating the normalized intensity or amplitude of each feature.
+There are 60 values in total, suggesting that this data may represent a sonar signal with 60) </p>
+        </form>
+    </div>
+</body>
+</html>
