@@ -75,4 +75,4 @@ def about():
     """
     return render_template("about.html", about_text=about_text)
 if __name__ == "__main__":
-    app.run(port=3010)  # Run the Flask app in debug mode for development
+    app.run(port=5010)  # Run the Flask app in debug mode for development
