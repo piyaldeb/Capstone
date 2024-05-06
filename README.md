@@ -60,7 +60,7 @@ Our Predictive Model will predict is it rock or mine
         Meet "The Team"</h1>
 <p><ul>
   <li><strong>Ranak Debnath</strong></li>
-  <li><strong>Md Mazidul </strong></li>
+  <li><strong>Md Mazidul Islam</strong></li>
   <li><strong>Md Ananur Islam</strong></li>
   <li><strong>Amrit Kumar Samantray</strong></li>
 </ul>
